@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Budgeter.Core", "Budgeter.Core\Budgeter.Core.csproj", "{CA71CCBF-C474-44B1-B359-2AA1E0BD9E6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{BE1599C3-B325-402E-B255-C99F9487F8EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Budgeter.Core.Tests", "Budgeter.Core.Tests\Budgeter.Core.Tests.csproj", "{EA709A75-11F8-49E7-A31C-0552C7621ED8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA71CCBF-C474-44B1-B359-2AA1E0BD9E6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA71CCBF-C474-44B1-B359-2AA1E0BD9E6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA71CCBF-C474-44B1-B359-2AA1E0BD9E6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA71CCBF-C474-44B1-B359-2AA1E0BD9E6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA709A75-11F8-49E7-A31C-0552C7621ED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA709A75-11F8-49E7-A31C-0552C7621ED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA709A75-11F8-49E7-A31C-0552C7621ED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA709A75-11F8-49E7-A31C-0552C7621ED8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EA709A75-11F8-49E7-A31C-0552C7621ED8} = {BE1599C3-B325-402E-B255-C99F9487F8EA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C0833C7-9FEA-4BE4-B39F-17991E7F2C90}
+	EndGlobalSection
+EndGlobal
